@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Club Registration Portal</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>College Club Registration Portal</h1>
+        <p>Explore our college clubs and register for the clubs of your interest.</p>
+    </header>
+
+    <hr>
+
+    <section>
+        <h2>About Our Clubs</h2>
+
+        <p>
+            College clubs provide students with opportunities to learn new skills,
+            participate in activities, develop communication skills and work with
+            other students.
+        </p>
+
+        <p>
+            Students can choose clubs according to their interests and actively
+            participate in college activities.
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Available Clubs</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Club Name</th>
+                    <th>Category</th>
+                    <th>Main Activities</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>1</td>
+                    <td>Technical Club</td>
+                    <td>Technology</td>
+                    <td>Coding, Projects and Technical Workshops</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Cultural Club</td>
+                    <td>Cultural</td>
+                    <td>Dance, Music and Cultural Events</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Sports Club</td>
+                    <td>Sports</td>
+                    <td>Sports Activities and Competitions</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>NSS</td>
+                    <td>Social Service</td>
+                    <td>Community Service and Social Activities</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>NCC</td>
+                    <td>National Service</td>
+                    <td>Training, Discipline and Social Activities</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>Photography Club</td>
+                    <td>Creative</td>
+                    <td>Photography and Creative Activities</td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>Literary Club</td>
+                    <td>Literature</td>
+                    <td>Writing, Debates and Public Speaking</td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td>Entrepreneurship Club</td>
+                    <td>Business</td>
+                    <td>Business Ideas, Startups and Events</td>
+                </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td>Robotics Club</td>
+                    <td>Technology</td>
+                    <td>Robotics, Electronics and Projects</td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td>Coding Club</td>
+                    <td>Programming</td>
+                    <td>Programming and Problem Solving</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Club Registration Form</h2>
+
+        <form>
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required>
+
+            <br><br>
+
+            <label for="college">Select College:</label><br>
+
+            <select id="college" name="college" required>
+                <option value="">-- Select College --</option>
+                <option value="UIT RGPV, Bhopal">UIT RGPV, Bhopal</option>
+                <option value="SOIT RGPV, Bhopal">SOIT RGPV, Bhopal</option>
+            </select>
+
+            <br><br>
+
+            <label for="branch">Branch:</label><br>
+            <input type="text" id="branch" name="branch" required>
+
+            <br><br>
+
+            <label for="year">Year:</label><br>
+
+            <select id="year" name="year" required>
+                <option value="">-- Select Year --</option>
+                <option value="1st Year">1st Year</option>
+                <option value="2nd Year">2nd Year</option>
+                <option value="3rd Year">3rd Year</option>
+                <option value="4th Year">4th Year</option>
+            </select>
+
+            <br><br>
+
+            <label>Select Your Clubs:</label>
+
+            <br><br>
+
+            <input type="checkbox" id="technical" name="club" value="Technical Club">
+            <label for="technical">Technical Club</label>
+
+            <br>
+
+            <input type="checkbox" id="cultural" name="club" value="Cultural Club">
+            <label for="cultural">Cultural Club</label>
+
+            <br>
+
+            <input type="checkbox" id="sports" name="club" value="Sports Club">
+            <label for="sports">Sports Club</label>
+
+            <br>
+
+            <input type="checkbox" id="nss" name="club" value="NSS">
+            <label for="nss">NSS</label>
+
+            <br>
+
+            <input type="checkbox" id="ncc" name="club" value="NCC">
+            <label for="ncc">NCC</label>
+
+            <br>
+
+            <input type="checkbox" id="photography" name="club" value="Photography Club">
+            <label for="photography">Photography Club</label>
+
+            <br>
+
+            <input type="checkbox" id="literary" name="club" value="Literary Club">
+            <label for="literary">Literary Club</label>
+
+            <br>
+
+            <input type="checkbox" id="entrepreneurship" name="club" value="Entrepreneurship Club">
+            <label for="entrepreneurship">Entrepreneurship Club</label>
+
+            <br>
+
+            <input type="checkbox" id="robotics" name="club" value="Robotics Club">
+            <label for="robotics">Robotics Club</label>
+
+            <br>
+
+            <input type="checkbox" id="coding" name="club" value="Coding Club">
+            <label for="coding">Coding Club</label>
+
+            <br><br>
+
+            <label for="reason">Why do you want to join these clubs?</label><br>
+
+            <textarea id="reason" name="reason" rows="5" cols="40"></textarea>
+
+            <br><br>
+
+            <input type="checkbox" id="rules" name="rules" required>
+
+            <label for="rules">
+                I agree to follow the club rules.
+            </label>
+
+            <br><br>
+
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Club Rules</h2>
+
+        <ol>
+            <li>Members must follow college and club guidelines.</li>
+            <li>Members should attend club activities regularly.</li>
+            <li>Members must maintain respectful behaviour.</li>
+            <li>Club resources should be used responsibly.</li>
+            <li>Members should actively participate in club activities.</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>College Club Registration Portal</p>
+        <p>2026 College Clubs</p>
+    </footer>
+
+</body>
+
+</html>
